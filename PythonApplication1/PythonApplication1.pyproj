@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>844cb059-eb5e-4e31-a382-00202c3001f6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplication1.py</StartupFile>
+    <StartupFile>tuples.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,40 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="clicing.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="in_operator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lists.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="list_items.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="list_operations.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonApplication1.py" />
+    <Compile Include="string.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="string_formatting.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="string_neg_indexing.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tuples.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="typeconversation.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
